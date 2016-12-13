@@ -1,0 +1,117 @@
+.main {
+  min-width: 1330px;
+  margin-top: 85px; }
+  .main .content {
+    width: 1330px;
+    margin: 0 auto; }
+    .main .content .first {
+      overflow: hidden; }
+      .main .content .first .picture {
+        float: left;
+        height: 576px;
+        position: relative; }
+        .main .content .first .picture .bigImg {
+          width: 591px;
+          height: 576px;
+          position: absolute;
+          top: 0;
+          left: 595px;
+          z-index: 100;
+          overflow: hidden;
+          display: none; }
+          .main .content .first .picture .bigImg img {
+            width: 250%;
+            height: 250%;
+            position: absolute;
+            top: 0;
+            left: 0; }
+        .main .content .first .picture .pictureleft {
+          height: 576px;
+          float: left;
+          overflow: hidden;
+          position: relative; }
+          .main .content .first .picture .pictureleft .piece {
+            display: none;
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background: black;
+            top: 0;
+            left: 0;
+            opacity: 0.3;
+            filter: alpha(opacity=30); }
+          .main .content .first .picture .pictureleft img {
+            width: 591px;
+            height: 576px; }
+        .main .content .first .picture .pictureright {
+          float: right;
+          width: 104px;
+          margin-left: 18px; }
+          .main .content .first .picture .pictureright img {
+            border: 2px solid #ececec;
+            margin-bottom: 15px;
+            cursor: pointer; }
+          .main .content .first .picture .pictureright .bottomNone {
+            margin-bottom: 0; }
+      .main .content .first .price {
+        width: 450px;
+        float: right;
+        text-align: center;
+        margin-right: 40px;
+        font-size: 20px;
+        color: #575656; }
+        .main .content .first .price .title {
+          font-size: 55px;
+          margin-bottom: 15px;
+          margin-top: 5px;
+          letter-spacing: 8px; }
+        .main .content .first .price .unitPrice {
+          font-size: 40px; }
+        .main .content .first .price .retail {
+          font-size: 20px;
+          font-style: italic;
+          text-decoration: underline;
+          margin-top: 20px;
+          margin-bottom: 115px; }
+        .main .content .first .price .color {
+          width: 265px;
+          height: 78px;
+          border: 2px solid #c7c8c8;
+          margin: 10px auto 33px;
+          position: relative; }
+          .main .content .first .price .color img {
+            position: absolute;
+            top: 15px;
+            left: 15px; }
+          .main .content .first .price .color span {
+            display: block;
+            text-align: left;
+            font-size: 18px;
+            margin-bottom: 5px;
+            margin-left: 80px; }
+          .main .content .first .price .color .one {
+            margin-top: 20px; }
+        .main .content .first .price .a {
+          color: white;
+          width: 267px;
+          height: 67px;
+          display: block;
+          margin: 0 auto 24px;
+          line-height: 67px;
+          background: #9d6f89; }
+      .main .content .first .jieshao {
+        margin-top: 24px; }
+    .main .content .second {
+      width: 1319px;
+      margin: 15px auto 0;
+      border-top: 1px solid #efefef;
+      text-align: center; }
+      .main .content .second .title {
+        color: black;
+        margin: 20px 0 20px 0; }
+      .main .content .second img {
+        margin-right: 33px; }
+      .main .content .second .rightNone {
+        margin-right: 0; }
+      .main .content .second .cost {
+        margin: 40px auto 60px; }

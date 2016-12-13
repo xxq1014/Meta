@@ -1,0 +1,263 @@
+.header {
+  height: 255px;
+  background: white;
+  font-weight: lighter; }
+  .header .headerTop {
+    width: 1315px;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 21px; }
+    .header .headerTop .join {
+      position: relative;
+      top: 9px; }
+    .header .headerTop a {
+      color: #666666; }
+    .header .headerTop .user {
+      margin-left: 772px;
+      margin-right: 142px; }
+    .header .headerTop .user, .header .headerTop .shopping {
+      position: relative;
+      top: 9px;
+      font-size: 18px; }
+    .header .headerTop .number {
+      position: absolute;
+      margin-left: 37px;
+      width: 52px;
+      height: 80px; }
+      .header .headerTop .number .bags {
+        vertical-align: top;
+        position: absolute;
+        z-index: 5; }
+      .header .headerTop .number .numberbackground {
+        position: absolute;
+        top: 0;
+        left: -9px;
+        display: none; }
+      .header .headerTop .number .dotnum {
+        position: absolute;
+        top: 30px;
+        left: 9px;
+        width: 14px;
+        height: 14px;
+        border: 2px solid #9d6f89;
+        z-index: 50;
+        background: white;
+        border-radius: 50%;
+        font-size: 13px;
+        line-height: 14px;
+        text-align: center;
+        color: #666;
+        display: none; }
+  .header .headerTitle {
+    min-width: 1315px;
+    margin-top: 65px;
+    text-align: center; }
+  .header .headerNav {
+    min-width: 1330px; }
+    .header .headerNav ul {
+      width: 775px;
+      margin: 47px auto 14px;
+      overflow: hidden; }
+      .header .headerNav ul li {
+        float: left;
+        margin-right: 145px;
+        font-size: 21px; }
+        .header .headerNav ul li a {
+          color: #666; }
+      .header .headerNav ul .rightNone {
+        margin-right: 0; }
+  .header .loginfirst {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none; }
+    .header .loginfirst .box {
+      width: 600px;
+      height: 765px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -300px;
+      margin-top: -382px;
+      color: #666666; }
+      .header .loginfirst .box .top {
+        height: 650px;
+        padding-top: 45px;
+        padding-left: 38px;
+        padding-right: 38px;
+        background: white;
+        text-align: center;
+        font-size: 20px; }
+        .header .loginfirst .box .top .welcome {
+          font-size: 25px;
+          margin-bottom: 60px; }
+        .header .loginfirst .box .top img {
+          width: 165px; }
+        .header .loginfirst .box .top .weibo {
+          height: 46px;
+          cursor: pointer;
+          line-height: 46px;
+          margin: 30px 0 20px 0;
+          background: #f1ead8 25px 8px url(../img/weibologin.png) no-repeat; }
+        .header .loginfirst .box .top .qq {
+          height: 42px;
+          cursor: pointer;
+          line-height: 42px;
+          border: 2px solid #e3e3e3;
+          background: url(../img/qqlogin.png) 23px 5px no-repeat; }
+        .header .loginfirst .box .top .or {
+          margin: 40px 0 20px 0; }
+        .header .loginfirst .box .top .email, .header .loginfirst .box .top .password {
+          text-align: left; }
+        .header .loginfirst .box .top .emailInput {
+          margin-bottom: 25px; }
+        .header .loginfirst .box .top input {
+          display: block;
+          height: 38px;
+          width: 100%;
+          border: 1px solid #e3e3e3;
+          margin-top: 10px; }
+        .header .loginfirst .box .top .submit {
+          cursor: pointer;
+          height: 48px;
+          border: 1px solid #e3e3e3;
+          background: #c4a9b8;
+          line-height: 48px;
+          width: 100%;
+          margin-top: 15px;
+          color: white; }
+        .header .loginfirst .box .top .forget {
+          margin-top: 20px; }
+          .header .loginfirst .box .top .forget a {
+            color: #666666; }
+      .header .loginfirst .box .loginbottom {
+        height: 55px;
+        background: black;
+        line-height: 55px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 14px;
+        text-decoration: underline; }
+  .header .registeredOne {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none; }
+    .header .registeredOne .box {
+      width: 600px;
+      height: 765px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -300px;
+      margin-top: -382px;
+      color: #666666; }
+      .header .registeredOne .box .top {
+        height: 650px;
+        padding-top: 45px;
+        padding-left: 38px;
+        padding-right: 38px;
+        background: white;
+        text-align: center;
+        font-size: 20px; }
+        .header .registeredOne .box .top .title {
+          font-size: 40px;
+          margin-top: 100px; }
+        .header .registeredOne .box .top .content {
+          margin-top: 50px;
+          margin-bottom: 25px; }
+        .header .registeredOne .box .top .email {
+          text-align: left; }
+        .header .registeredOne .box .top input {
+          display: block;
+          height: 38px;
+          width: 100%;
+          border: 1px solid #e3e3e3;
+          margin-top: 10px;
+          margin-bottom: 20px; }
+        .header .registeredOne .box .top .submit {
+          cursor: pointer;
+          height: 48px;
+          border: 1px solid #e3e3e3;
+          background: #c4a9b8;
+          line-height: 48px;
+          width: 100%;
+          margin-top: 20px;
+          color: white; }
+        .header .registeredOne .box .top .weibo {
+          height: 46px;
+          cursor: pointer;
+          line-height: 46px;
+          margin: 20px 0 20px 0;
+          background: #f1ead8 25px 8px url(../img/weibologin.png) no-repeat; }
+        .header .registeredOne .box .top .qq {
+          height: 42px;
+          cursor: pointer;
+          line-height: 42px;
+          border: 2px solid #e3e3e3;
+          background: url(../img/qqlogin.png) 23px 5px no-repeat; }
+      .header .registeredOne .box .loginbottom {
+        height: 55px;
+        background: black;
+        line-height: 55px;
+        color: white;
+        text-align: center;
+        margin-top: 14px;
+        text-decoration: underline; }
+        .header .registeredOne .box .loginbottom a {
+          color: white; }
+  .header .registeredTwo {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none; }
+    .header .registeredTwo .box {
+      width: 524px;
+      height: 550px;
+      padding-top: 40px;
+      padding-left: 38px;
+      padding-right: 38px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -300px;
+      margin-top: -295px;
+      color: #666666;
+      background: white;
+      text-align: center;
+      font-size: 20px; }
+      .header .registeredTwo .box .title {
+        font-size: 40px;
+        letter-spacing: 3px; }
+      .header .registeredTwo .box input {
+        display: block;
+        height: 38px;
+        width: 100%;
+        border: 1px solid #e3e3e3;
+        margin-top: 10px;
+        margin-bottom: 20px; }
+      .header .registeredTwo .box .name {
+        margin-top: 105px; }
+      .header .registeredTwo .box .name, .header .registeredTwo .box .password, .header .registeredTwo .box .tel {
+        text-align: left; }
+      .header .registeredTwo .box .logining {
+        height: 50px;
+        border: 1px solid #e3e3e3;
+        line-height: 50px;
+        background: #c4a9b8;
+        margin-top: 45px; }
+
+/*# sourceMappingURL=header.css.map */

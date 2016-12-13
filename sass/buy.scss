@@ -1,0 +1,145 @@
+.main{
+	min-width: 1330px;
+	margin-top: 85px;
+	.content{
+		width: 1330px;
+		margin: 0 auto;
+		.first{
+			overflow: hidden;
+			.picture{
+				float: left;
+				height: 576px;
+				position: relative;
+				.bigImg{
+					width: 591px;
+					height: 576px;
+					position: absolute;
+					top: 0;
+					left: 595px;
+					z-index: 100;
+					overflow: hidden;
+					display: none;
+					img{
+						width: 250%;
+						height:250%;
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+				.pictureleft{
+					height: 576px;
+					float: left;
+					overflow: hidden;
+					position: relative;
+					.piece{
+						display: none;
+						position: absolute;
+						width: 250px;
+						height: 250px;
+						background:black;
+						top: 0;
+						left: 0;
+						opacity: 0.3;
+						filter:alpha(opacity=30);  
+					}
+					img{
+						width: 591px;
+						height: 576px;
+					}
+				}
+				.pictureright{
+					float: right;
+					width: 104px;
+					margin-left: 18px;
+					img{
+						border:2px solid #ececec;
+						margin-bottom: 15px;
+						cursor: pointer;
+					}
+					.bottomNone{
+						margin-bottom: 0;
+					}
+				}
+			}
+			.price{
+				width:450px;
+				float: right;
+				text-align: center;
+				margin-right: 40px;
+				font-size: 20px;
+				color:#575656;
+				.title{
+					font-size:55px;
+					margin-bottom: 15px;
+					margin-top: 5px;
+					letter-spacing: 8px;
+				}
+				.unitPrice{
+					font-size:40px;
+				}
+				.retail{
+					font-size: 20px;
+					font-style: italic;
+					text-decoration: underline;
+					margin-top: 20px;
+					margin-bottom: 115px;
+				}
+				.color{
+					width: 265px;
+					height:78px;
+					border:2px solid #c7c8c8;
+					margin: 10px auto 33px;
+					position: relative;
+					img{
+						position: absolute;
+						top: 15px;
+						left: 15px;
+					}
+					span{
+						display: block;
+						text-align: left;
+						font-size: 18px;
+						margin-bottom: 5px;
+						margin-left: 80px
+					}
+					.one{
+						margin-top: 20px;
+					}
+				}
+				.a {
+					color: white;
+					width: 267px;
+					height: 67px;
+					display: block;
+					margin: 0 auto 24px;
+					line-height: 67px;
+					background:#9d6f89;
+				}
+			}
+			.jieshao {
+				margin-top: 24px;
+			}
+		}
+
+		.second{
+			width: 1319px;
+			margin: 15px auto 0;
+			border-top: 1px solid #efefef;
+			text-align: center;
+			.title{
+				color:black;
+				margin: 20px 0 20px 0;
+			}
+			img{
+				margin-right: 33px;
+			}
+			.rightNone{
+				margin-right: 0;
+			}
+			.cost{
+				margin: 40px auto 60px;
+			}
+		}
+	}
+}

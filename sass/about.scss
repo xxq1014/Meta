@@ -1,0 +1,156 @@
+.bigbox{
+	min-width: 1330px;
+	.nav{
+		width:460px;
+		margin:0 auto;
+		font-size: 18px;
+		margin-top: 20px;
+		font-style: italic;
+		a{
+			color:#5c5c5c;
+			margin-right: 56px;
+		}
+	}
+	.navfixed{
+		width:460px;
+		font-size: 18px;
+		font-style: italic;
+		position: fixed;
+		top:0;
+		left: 50%;
+		margin-left: -230px;
+		a{
+			color:#5c5c5c;
+			margin-right: 56px;
+		}
+	}
+	.title{
+		color:#5c5c5c;
+		width: 540px;
+		margin: 0 auto;
+		text-align: center;
+		.firstTitle{
+			font-size: 15px;
+			font-style: italic;
+			margin-top: 135px;
+			margin-bottom: 15px;
+		}
+		.secondTitle{
+			font-size: 80px;
+			letter-spacing: 8px;
+			margin-bottom: 30px;
+		}
+		.thirdTitle{
+			font-size: 28px;
+			font-style: italic;
+			letter-spacing: 10px;
+		}
+	}
+	.list{
+		width: 1420px;
+		margin: 125px auto 0;
+		overflow: hidden;
+		color:#5c5c5c;
+		div{
+			width: 360px;
+			float: left;
+			margin-right: 170px;
+			text-align: center;
+			.Title{
+				font-size: 20px;
+				margin: 25px 0 40px 0;
+			}
+			.content{
+				font-size: 12px;
+				line-height: 15px;
+			}
+		}
+		.demand{
+			margin-right: 0;
+		}
+	}
+	.concept{
+		color:#5c5c5c;
+		text-align: center;
+		.one{
+			font-size: 30px;
+			font-style: italic;
+			letter-spacing: 10px;
+			margin-top: 150px;
+			margin-bottom: 85px;
+		}
+		.two{
+			font-size: 20px;
+			font-style: italic;
+			letter-spacing: 5px;
+			line-height: 25px;
+		}
+	}
+	.team,.design{
+		text-align: center;
+		.title{
+			font-style: italic;
+			margin-top: 80px;
+			margin-bottom: 35px;
+		}
+		.Title{
+			font-size: 30px;
+			margin-top: 60px;
+			font-style: italic;
+			color:#5c5c5c;
+		}
+		.content{
+			color:#5c5c5c;
+			font-style: italic;
+			font-size: 20px;
+			line-height: 25px;
+			margin-top: 60px;
+		}
+	}
+	.media{
+		text-align:center;
+		.title{
+			font-style: italic;
+			margin-top: 170px;
+			margin-bottom: 60px;
+		}
+	}
+	.contact{
+		text-align: center;
+		margin-bottom: 110px;
+		.title{
+			font-style: italic;
+			margin-top: 130px;
+			margin-bottom: 45px;
+		}
+		.content{
+			font-size: 41px;
+			color:#5c5c5c;
+			letter-spacing: 10px;
+			font-style: italic;
+			line-height: 45px;
+		}
+		.thirdParty{
+			width: 145px;
+			margin: 60px auto 70px;
+			img{
+				margin-right: 35px;
+			}
+			.rightNone{
+				margin-right: 0;
+			}
+		}
+		.address{
+			font-style: italic;
+			word-spacing: 5px;
+			letter-spacing: 2px;
+			color:#5c5c5c;
+			a{
+				color:#ac879c;
+			}
+			.link{
+				margin-top: 20px;
+			}
+		}
+	}
+}

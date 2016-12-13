@@ -1,0 +1,30 @@
+.bottom{
+	height: 200px;
+	min-width: 1330px;
+	padding-top: 45px;
+	border-top:1px solid #b2b1b1;
+	background:white;
+	div{
+		width: 420px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	ul{
+		float: left;
+		margin-right: 110px;
+		li{
+			font-size: 14px;
+			color:#b8b8b8;
+			margin-bottom: 10px;
+			a{
+				color:#747474;
+			}
+		}
+		.title{
+			margin-bottom: 13px;
+		}
+	}
+	.rightNone{
+		margin-right: 0;
+	}
+}

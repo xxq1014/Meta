@@ -1,0 +1,50 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		title 购买页
+		link(rel="stylesheet" href="../css/reset.css")
+		link(rel="stylesheet" href="../css/header.css")
+		link(rel="stylesheet" href="../css/buy.css")
+		link(rel="stylesheet" href="../css/bottom.css")
+	body
+		include header.jade
+		div.main
+			div.content
+				div.first
+					div.picture
+						div.bigImg
+							img(src="../img/pictureLeft.png")
+						div.pictureleft
+							div.piece
+							img(src="../img/pictureLeft.png")
+						div.pictureright
+							img(style="width:98px;height:98px;" class="img1" src="../img/pictureLeft.png")
+							img(class="img1" src="../img/right2.png")
+							img(class="img1" src="../img/right3.png")
+							img(class="img1" src="../img/right4.png")
+							img(class="bottomNone" src="../img/right5.png")
+					div.price
+						p.title 麦塔帆布双肩包
+						p.unitPrice ￥349
+						p.retail 传统零售店售价￥1200
+						p 颜色
+						div.color
+							img(src="../img/jianbian.png")
+							span.one 斜纹牛仔布
+							span 黑色牛皮
+						a.a(href="#") 加入购物袋
+						p 免邮费
+					img.jieshao(src="../img/jieshao.png")
+				div.second
+					p.title FROM THE PEOPLE
+					img(src="../img/inglist1.png")
+					img(src="../img/inglist1.png")
+					img(src="../img/inglist1.png")
+					img(src="../img/inglist1.png")
+					img(class="rightNone" src="../img/inglist1.png")
+					div.cost
+						img(src="../img/cost.png")
+		include bottom.jade
+	script(src="../js/header.js")
+	script(src="../js/buy.js")

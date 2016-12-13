@@ -1,0 +1,23 @@
+.bottom {
+  height: 200px;
+  min-width: 1330px;
+  padding-top: 45px;
+  border-top: 1px solid #b2b1b1;
+  background: white; }
+  .bottom div {
+    width: 420px;
+    overflow: hidden;
+    margin: 0 auto; }
+  .bottom ul {
+    float: left;
+    margin-right: 110px; }
+    .bottom ul li {
+      font-size: 14px;
+      color: #b8b8b8;
+      margin-bottom: 10px; }
+      .bottom ul li a {
+        color: #747474; }
+    .bottom ul .title {
+      margin-bottom: 13px; }
+  .bottom .rightNone {
+    margin-right: 0; }
